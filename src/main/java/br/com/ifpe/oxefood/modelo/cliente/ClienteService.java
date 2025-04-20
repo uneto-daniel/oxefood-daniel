@@ -3,6 +3,7 @@ package br.com.ifpe.oxefood.modelo.cliente;
 
 // Importa a anotação @Autowired para injeção de dependência automática.
 import org.springframework.beans.factory.annotation.Autowired;
+
 // Importa a anotação @Service para indicar que esta classe é um componente de serviço.
 import org.springframework.stereotype.Service;
 

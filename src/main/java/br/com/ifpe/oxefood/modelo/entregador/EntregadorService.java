@@ -7,15 +7,15 @@ import jakarta.transaction.Transactional;
 
 @Service
 public class EntregadorService {
-    
-    @Autowired
-    private EntregadorRepository repository;
 
-    @Transactional
-    public Entregador save(Entregador entregador) {
-        
-        entregador.setHabilitado(Boolean.TRUE);
+  @Autowired
+  private EntregadorRepository repository;
 
-        // Salva o entregador no banco de dados usando o repositório e retorna o objeto gravado.
-        return repository.save(entregador);
-}}
+  @Transactional // escopo de transação no banco de dados
+  public Entregador save(Entregador cliente) {
+
+    cliente.setHabilitado(Boolean.TRUE);
+    return repository.save(cliente);
+  }
+
+}

@@ -1,0 +1,247 @@
+----------------------------------->Json de Clientes<-----------------------------------
+{
+    "nome": "Outro Nome",
+    "dataNascimento": "01/01/1990",
+    "cpf": "111.222.333-44",
+    "foneCelular": "81 9 8888.8888",
+    "foneFixo": "81 8888.8888"
+}
+{
+    "nome": "João Silva",
+    "dataNascimento": "15/08/1985",
+    "cpf": "123.456.789-00",
+    "foneCelular": "81 9 8888.7777",
+    "foneFixo": "81 8888.7777"
+},
+{
+    "nome": "Maria Oliveira",
+    "dataNascimento": "22/11/1992",
+    "cpf": "234.567.890-11",
+    "foneCelular": "81 9 7777.6666",
+    "foneFixo": "81 7777.6666"
+},
+{
+    "nome": "Carlos Pereira",
+    "dataNascimento": "03/12/1980",
+    "cpf": "345.678.901-22",
+    "foneCelular": "81 9 6666.5555",
+    "foneFixo": "81 6666.5555"
+},
+{
+    "nome": "Ana Costa",
+    "dataNascimento": "10/02/1995",
+    "cpf": "456.789.012-33",
+    "foneCelular": "81 9 5555.4444",
+    "foneFixo": "81 5555.4444"
+}
+
+
+----------------------------------->Json de Produtos<-----------------------------------
+  {
+    "id": "prod001",
+    "habilitado": true,
+    "criado_por": "admin",
+    "data_criacao": "2025-01-10T08:30:00Z",
+    "data_ultima_modificacao": "2025-03-01T10:00:00Z",
+    "ultima_modificacao_por": "admin",
+    "versao": 1,
+    "codigo": "P001",
+    "descricao": "Smartphone com 128GB de armazenamento",
+    "tempo_entrega_maximo": 7,
+    "tempo_entrega_minimo": 3,
+    "titulo": "Smartphone Galaxy X",
+    "valor_unitario": 1999.99
+  },
+  {
+    "id": "prod002",
+    "habilitado": true,
+    "criado_por": "admin",
+    "data_criacao": "2025-01-12T09:00:00Z",
+    "data_ultima_modificacao": "2025-01-15T12:00:00Z",
+    "ultima_modificacao_por": "estoquista",
+    "versao": 2,
+    "codigo": "P002",
+    "descricao": "Notebook com 16GB RAM e SSD 512GB",
+    "tempo_entrega_maximo": 10,
+    "tempo_entrega_minimo": 5,
+    "titulo": "Notebook Dell Inspiron",
+    "valor_unitario": 3599.90
+  },
+  {
+    "id": "prod003",
+    "habilitado": false,
+    "criado_por": "usuario_teste",
+    "data_criacao": "2025-02-01T11:15:00Z",
+    "data_ultima_modificacao": "2025-02-02T14:30:00Z",
+    "ultima_modificacao_por": "admin",
+    "versao": 1,
+    "codigo": "P003",
+    "descricao": "Fone de ouvido Bluetooth com cancelamento de ruído",
+    "tempo_entrega_maximo": 6,
+    "tempo_entrega_minimo": 2,
+    "titulo": "Fone Bluetooth JBL",
+    "valor_unitario": 299.00
+  },
+  {
+    "id": "prod004",
+    "habilitado": true,
+    "criado_por": "estoquista",
+    "data_criacao": "2025-01-25T15:45:00Z",
+    "data_ultima_modificacao": "2025-02-05T10:30:00Z",
+    "ultima_modificacao_por": "estoquista",
+    "versao": 3,
+    "codigo": "P004",
+    "descricao": "Cadeira gamer ergonômica",
+    "tempo_entrega_maximo": 8,
+    "tempo_entrega_minimo": 4,
+    "titulo": "Cadeira Gamer Xtreme",
+    "valor_unitario": 1249.99
+  },
+  {
+    "id": "prod005",
+    "habilitado": true,
+    "criado_por": "admin",
+    "data_criacao": "2025-01-05T10:00:00Z",
+    "data_ultima_modificacao": "2025-01-10T10:00:00Z",
+    "ultima_modificacao_por": "admin",
+    "versao": 1,
+    "codigo": "P005",
+    "descricao": "Teclado mecânico com iluminação RGB",
+    "tempo_entrega_maximo": 5,
+    "tempo_entrega_minimo": 2,
+    "titulo": "Teclado Mecânico Redragon",
+    "valor_unitario": 349.90
+  },
+  {
+    "id": "prod006",
+    "habilitado": false,
+    "criado_por": "admin",
+    "data_criacao": "2025-01-20T14:00:00Z",
+    "data_ultima_modificacao": "2025-03-10T15:00:00Z",
+    "ultima_modificacao_por": "estoquista",
+    "versao": 2,
+    "codigo": "P006",
+    "descricao": "Monitor 27'' Full HD com painel IPS",
+    "tempo_entrega_maximo": 9,
+    "tempo_entrega_minimo": 4,
+    "titulo": "Monitor LG Full HD",
+    "valor_unitario": 1099.00
+  },
+  {
+    "id": "prod007",
+    "habilitado": true,
+    "criado_por": "admin",
+    "data_criacao": "2025-01-18T11:00:00Z",
+    "data_ultima_modificacao": "2025-01-19T11:00:00Z",
+    "ultima_modificacao_por": "admin",
+    "versao": 1,
+    "codigo": "P007",
+    "descricao": "Mochila para notebook até 17 polegadas",
+    "tempo_entrega_maximo": 7,
+    "tempo_entrega_minimo": 3,
+    "titulo": "Mochila Executiva",
+    "valor_unitario": 199.90
+  },
+  {
+    "id": "prod008",
+    "habilitado": true,
+    "criado_por": "estoquista",
+    "data_criacao": "2025-02-10T16:00:00Z",
+    "data_ultima_modificacao": "2025-02-12T17:00:00Z",
+    "ultima_modificacao_por": "admin",
+    "versao": 1,
+    "codigo": "P008",
+    "descricao": "Smartwatch com monitoramento de saúde",
+    "tempo_entrega_maximo": 6,
+    "tempo_entrega_minimo": 2,
+    "titulo": "Smartwatch FitPro",
+    "valor_unitario": 499.00
+  },
+  {
+    "id": "prod009",
+    "habilitado": true,
+    "criado_por": "admin",
+    "data_criacao": "2025-01-30T09:30:00Z",
+    "data_ultima_modificacao": "2025-03-01T10:30:00Z",
+    "ultima_modificacao_por": "estoquista",
+    "versao": 2,
+    "codigo": "P009",
+    "descricao": "Webcam Full HD com microfone embutido",
+    "tempo_entrega_maximo": 5,
+    "tempo_entrega_minimo": 1,
+    "titulo": "Webcam Logitech C920",
+    "valor_unitario": 369.90
+  },
+  {
+    "id": "prod010",
+    "habilitado": false,
+    "criado_por": "admin",
+    "data_criacao": "2025-01-03T10:15:00Z",
+    "data_ultima_modificacao": "2025-01-04T11:45:00Z",
+    "ultima_modificacao_por": "admin",
+    "versao": 1,
+    "codigo": "P010",
+    "descricao": "Carregador portátil 10000mAh",
+    "tempo_entrega_maximo": 4,
+    "tempo_entrega_minimo": 1,
+    "titulo": "Power Bank Xiaomi",
+    "valor_unitario": 149.00
+  }
+
+
+----------------------------------->Json de Entregador<-----------------------------------
+
+{
+  "id": "345678",
+  "habilitado": false,
+  "criado_por": "usuario_externo",
+  "data_criacao": "2024-12-05T13:00:00Z",
+  "data_ultima_modificacao": "2025-02-20T08:00:00Z",
+  "ultima_modificacao_por": "supervisor",
+  "versao": 2,
+  "ativo": false,
+  "cpf": "321.987.654-11",
+  "data_nascimento": "1995-03-10",
+  "endereco_bairro": "Jardim das Flores",
+  "endereco_cep": "67890-123",
+  "endereco_cidade": "Belo Horizonte",
+  "endereco_complemento": "Bloco B",
+  "endereco_numero": "78",
+  "endereco_rua": "Rua das Palmeiras",
+  "endereco_uf": "MG",
+  "fone_celular": "(31) 98555-0000",
+  "fone_fixo": "(31) 3344-5567",
+  "nome": "Carlos Mendes",
+  "qtd_entregas_realizadas": 118,
+  "rg": "98.765.432-1",
+  "valor_frete": 39.90
+},
+{
+  "id": "789012",
+  "habilitado": true,
+  "criado_por": "sistema",
+  "data_criacao": "2025-01-10T09:30:00Z",
+  "data_ultima_modificacao": "2025-03-15T11:45:00Z",
+  "ultima_modificacao_por": "admin",
+  "versao": 5,
+  "ativo": true,
+  "cpf": "987.654.321-00",
+  "data_nascimento": "1985-11-22",
+  "endereco_bairro": "Boa Vista",
+  "endereco_cep": "54321-000",
+  "endereco_cidade": "Recife",
+  "endereco_complemento": "Casa",
+  "endereco_numero": "456",
+  "endereco_rua": "Av. Brasil",
+  "endereco_uf": "PE",
+  "fone_celular": "(81) 99876-5432",
+  "fone_fixo": "(81) 3222-1122",
+  "nome": "Maria Oliveira",
+  "qtd_entregas_realizadas": 430,
+  "rg": "45.678.910-0",
+  "valor_frete": 62.50
+}
+
+
+
+

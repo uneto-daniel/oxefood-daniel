@@ -1,42 +1,164 @@
 ----------------------------------->Json de Clientes<-----------------------------------
-{
-    "nome": "Outro Nome",
-    "dataNascimento": "01/01/1990",
-    "cpf": "111.222.333-44",
-    "foneCelular": "81 9 8888.8888",
-    "foneFixo": "81 8888.8888"
-}
-{
-    "nome": "João Silva",
-    "dataNascimento": "15/08/1985",
-    "cpf": "123.456.789-00",
-    "foneCelular": "81 9 8888.7777",
-    "foneFixo": "81 8888.7777"
-},
-{
-    "nome": "Maria Oliveira",
-    "dataNascimento": "22/11/1992",
-    "cpf": "234.567.890-11",
-    "foneCelular": "81 9 7777.6666",
-    "foneFixo": "81 7777.6666"
-},
-{
-    "nome": "Carlos Pereira",
-    "dataNascimento": "03/12/1980",
-    "cpf": "345.678.901-22",
-    "foneCelular": "81 9 6666.5555",
-    "foneFixo": "81 6666.5555"
-},
-{
-    "nome": "Ana Costa",
-    "dataNascimento": "10/02/1995",
-    "cpf": "456.789.012-33",
-    "foneCelular": "81 9 5555.4444",
-    "foneFixo": "81 5555.4444"
-}
+[
+  {"nome": "João Silva", "dataNascimento": "15/08/1985", "cpf": "123.456.789-00", "foneCelular": "81 9 8888.7777", "foneFixo": "81 8888.7777"},
+  {"nome": "Maria Oliveira", "dataNascimento": "22/11/1992", "cpf": "234.567.890-11", "foneCelular": "81 9 7777.6666", "foneFixo": "81 7777.6666"},
+  {"nome": "Carlos Pereira", "dataNascimento": "03/12/1980", "cpf": "345.678.901-22", "foneCelular": "81 9 6666.5555", "foneFixo": "81 6666.5555"},
+  {"nome": "Ana Costa", "dataNascimento": "10/02/1995", "cpf": "456.789.012-33", "foneCelular": "81 9 5555.4444", "foneFixo": "81 5555.4444"},
+  {"nome": "Lucas Souza", "dataNascimento": "05/09/1988", "cpf": "567.890.123-44", "foneCelular": "81 9 4444.3333", "foneFixo": "81 4444.3333"},
+  {"nome": "Fernanda Lima", "dataNascimento": "20/04/1990", "cpf": "678.901.234-55", "foneCelular": "81 9 3333.2222", "foneFixo": "81 3333.2222"},
+  {"nome": "Ricardo Alves", "dataNascimento": "30/11/1982", "cpf": "789.012.345-66", "foneCelular": "81 9 2222.1111", "foneFixo": "81 2222.1111"},
+  {"nome": "Patrícia Rocha", "dataNascimento": "18/06/1993", "cpf": "890.123.456-77", "foneCelular": "81 9 1111.0000", "foneFixo": "81 1111.0000"},
+  {"nome": "Eduardo Martins", "dataNascimento": "25/12/1986", "cpf": "901.234.567-88", "foneCelular": "81 9 0000.9999", "foneFixo": "81 0000.9999"},
+  {"nome": "Juliana Silva", "dataNascimento": "12/03/1991", "cpf": "012.345.678-99", "foneCelular": "81 9 8888.7777", "foneFixo": "81 8888.7777"},
+  {"nome": "Marcos Pereira", "dataNascimento": "17/07/1984", "cpf": "123.456.789-00", "foneCelular": "81 9 7777.6666", "foneFixo": "81 7777.6666"},
+  {"nome": "Beatriz Costa", "dataNascimento": "22/10/1992", "cpf": "234.567.890-11", "foneCelular": "81 9 6666.5555", "foneFixo": "81 6666.5555"},
+  {"nome": "Gustavo Lima", "dataNascimento": "03/02/1987", "cpf": "345.678.901-22", "foneCelular": "81 9 5555.4444", "foneFixo": "81 5555.4444"},
+  {"nome": "Isabela Souza", "dataNascimento": "15/09/1994", "cpf": "456.789.012-33", "foneCelular": "81 9 4444.3333", "foneFixo": "81 4444.3333"},
+  {"nome": "Felipe Rocha", "dataNascimento": "28/01/1989", "cpf": "567.890.123-44", "foneCelular": "81 9 3333.2222", "foneFixo": "81 3333.2222"},
+  {"nome": "Camila Martins", "dataNascimento": "11/05/1990", "cpf": "678.901.234-55", "foneCelular": "81 9 2222.1111", "foneFixo": "81 2222.1111"},
+  {"nome": "Vinícius Alves", "dataNascimento": "06/08/1983", "cpf": "789.012.345-66", "foneCelular": "81 9 1111.0000", "foneFixo": "81 1111.0000"},
+  {"nome": "Aline Silva", "dataNascimento": "19/02/1996", "cpf": "890.123.456-77", "foneCelular": "81 9 0000.9999", "foneFixo": "81 0000.9999"},
+  {"nome": "Roberto Pereira", "dataNascimento": "02/04/1981", "cpf": "901.234.567-88", "foneCelular": "81 9 8888.7777", "foneFixo": "81 8888.7777"}
+]
 
 
 ----------------------------------->Json de Produtos<-----------------------------------
+ [
+  {
+    "id": "prod001",
+    "habilitado": true,
+    "criado_por": "admin",
+    "data_criacao": "2025-01-10T08:30:00Z",
+    "data_ultima_modificacao": "2025-03-01T10:00:00Z",
+    "ultima_modificacao_por": "admin",
+    "versao": 1,
+    "codigo": "P001",
+    "descricao": "Smartphone com 128GB de armazenamento",
+    "tempo_entrega_maximo": 7,
+    "tempo_entrega_minimo": 3,
+    "titulo": "Smartphone Galaxy X",
+    "valor_unitario": 1999.99
+  },
+  {
+    "id": "prod002",
+    "habilitado": true,
+    "criado_por": "admin",
+    "data_criacao": "2025-01-12T09:00:00Z",
+    "data_ultima_modificacao": "2025-01-15T12:00:00Z",
+    "ultima_modificacao_por": "estoquista",
+    "versao": 2,
+    "codigo": "P002",
+    "descricao": "Notebook com 16GB RAM e SSD 512GB",
+    "tempo_entrega_maximo": 10,
+    "tempo_entrega_minimo": 5,
+    "titulo": "Notebook Dell Inspiron",
+    "valor_unitario": 3599.90
+  },
+  {
+    "id": "prod003",
+    "habilitado": false,
+    "criado_por": "usuario_teste",
+    "data_criacao": "2025-02-01T11:15:00Z",
+    "data_ultima_modificacao": "2025-02-02T14:30:00Z",
+    "ultima_modificacao_por": "admin",
+    "versao": 1,
+    "codigo": "P003",
+    "descricao": "Fone de ouvido Bluetooth com cancelamento de ruído",
+    "tempo_entrega_maximo": 6,
+    "tempo_entrega_minimo": 2,
+    "titulo": "Fone Bluetooth JBL",
+    "valor_unitario": 299.00
+  },
+  {
+    "id": "prod004",
+    "habilitado": true,
+    "criado_por": "estoquista",
+    "data_criacao": "2025-01-25T15:45:00Z",
+    "data_ultima_modificacao": "2025-02-05T10:30:00Z",
+    "ultima_modificacao_por": "estoquista",
+    "versao": 3,
+    "codigo": "P004",
+    "descricao": "Cadeira gamer ergonômica",
+    "tempo_entrega_maximo": 8,
+    "tempo_entrega_minimo": 4,
+    "titulo": "Cadeira Gamer Xtreme",
+    "valor_unitario": 1249.99
+  },
+  {
+    "id": "prod005",
+    "habilitado": true,
+    "criado_por": "admin",
+    "data_criacao": "2025-01-05T10:00:00Z",
+    "data_ultima_modificacao": "2025-01-10T10:00:00Z",
+    "ultima_modificacao_por": "admin",
+    "versao": 1,
+    "codigo": "P005",
+    "descricao": "Teclado mecânico com iluminação RGB",
+    "tempo_entrega_maximo": 5,
+    "tempo_entrega_minimo": 2,
+    "titulo": "Teclado Mecânico Redragon",
+    "valor_unitario": 349.90
+  },
+  {
+    "id": "prod006",
+    "habilitado": false,
+    "criado_por": "admin",
+    "data_criacao": "2025-01-20T14:00:00Z",
+    "data_ultima_modificacao": "2025-03-10T15:00:00Z",
+    "ultima_modificacao_por": "estoquista",
+    "versao": 2,
+    "codigo": "P006",
+    "descricao": "Monitor 27'' Full HD com painel IPS",
+    "tempo_entrega_maximo": 9,
+    "tempo_entrega_minimo": 4,
+    "titulo": "Monitor LG Full HD",
+    "valor_unitario": 1099.00
+  },
+  {
+    "id": "prod007",
+    "habilitado": true,
+    "criado_por": "admin",
+    "data_criacao": "2025-01-18T11:00:00Z",
+    "data_ultima_modificacao": "2025-01-19T11:00:00Z",
+    "ultima_modificacao_por": "admin",
+    "versao": 1,
+    "codigo": "P007",
+    "descricao": "Mochila para notebook até 17 polegadas",
+    "tempo_entrega_maximo": 7,
+    "tempo_entrega_minimo": 3,
+    "titulo": "Mochila Executiva",
+    "valor_unitario": 199.90
+  },
+  {
+    "id": "prod008",
+    "habilitado": true,
+    "criado_por": "estoquista",
+    "data_criacao": "2025-02-10T16:00:00Z",
+    "data_ultima_modificacao": "2025-02-12T17:00:00Z",
+    "ultima_modificacao_por": "admin",
+    "versao": 1,
+    "codigo": "P008",
+    "descricao": "Smartwatch com monitoramento de saúde",
+    "tempo_entrega_maximo": 6,
+    "tempo_entrega_minimo": 2,
+    "titulo": "Smartwatch FitPro",
+    "valor_unitario": 499.00
+  },
+  {
+    "id": "prod009",
+    "habilitado": true,
+    "criado_por": "admin",
+    "data_criacao": "2025-01-30T09:30:00Z",
+    "data_ultima_modificacao": "2025-03-01T10:30:00Z",
+    "ultima_modificacao_por": "estoquista",
+    "versao": 2,
+    "codigo": "P009",
+    "descricao": "Webcam Full HD com microfone embutido",
+    "tempo_entrega_maximo": 5,
+    "tempo_entrega_minimo": 1,
+    "titulo": "Webcam Logitech C920",
+    "valor_unitario": 369.90
+  },
   {
     "id": "prod001",
     "habilitado": true,
@@ -187,9 +309,138 @@
     "titulo": "Power Bank Xiaomi",
     "valor_unitario": 149.00
   }
+ ]
 
 
 ----------------------------------->Json de Entregador<-----------------------------------
+
+[
+  {
+    "id": "345679",
+    "habilitado": true,
+    "criado_por": "admin",
+    "data_criacao": "2025-02-15T10:30:00Z",
+    "data_ultima_modificacao": "2025-04-01T08:00:00Z",
+    "ultima_modificacao_por": "supervisor",
+    "versao": 1,
+    "ativo": true,
+    "cpf": "111.222.333-55",
+    "data_nascimento": "1992-07-18",
+    "endereco_bairro": "Centro",
+    "endereco_cep": "50000-000",
+    "endereco_cidade": "São Paulo",
+    "endereco_complemento": "Apartamento 101",
+    "endereco_numero": "250",
+    "endereco_rua": "Rua São Jorge",
+    "endereco_uf": "SP",
+    "fone_celular": "(11) 99999-8888",
+    "fone_fixo": "(11) 2222-3333",
+    "nome": "Lucas Silva",
+    "qtd_entregas_realizadas": 310,
+    "rg": "12.345.678-9",
+    "valor_frete": 45.00
+  },
+  {
+    "id": "345680",
+    "habilitado": true,
+    "criado_por": "admin",
+    "data_criacao": "2025-03-12T15:15:00Z",
+    "data_ultima_modificacao": "2025-04-05T09:30:00Z",
+    "ultima_modificacao_por": "admin",
+    "versao": 1,
+    "ativo": true,
+    "cpf": "123.456.789-22",
+    "data_nascimento": "1987-04-25",
+    "endereco_bairro": "Vila Nova",
+    "endereco_cep": "62000-001",
+    "endereco_cidade": "Fortaleza",
+    "endereco_complemento": "Casa",
+    "endereco_numero": "35",
+    "endereco_rua": "Rua das Acácias",
+    "endereco_uf": "CE",
+    "fone_celular": "(85) 98888-7777",
+    "fone_fixo": "(85) 3333-4444",
+    "nome": "Júlia Costa",
+    "qtd_entregas_realizadas": 525,
+    "rg": "34.567.890-1",
+    "valor_frete": 55.75
+  },
+  {
+    "id": "345681",
+    "habilitado": true,
+    "criado_por": "admin",
+    "data_criacao": "2025-02-22T14:00:00Z",
+    "data_ultima_modificacao": "2025-03-30T10:00:00Z",
+    "ultima_modificacao_por": "supervisor",
+    "versao": 1,
+    "ativo": true,
+    "cpf": "456.789.012-33",
+    "data_nascimento": "1990-06-05",
+    "endereco_bairro": "Bairro Alto",
+    "endereco_cep": "70000-003",
+    "endereco_cidade": "Brasília",
+    "endereco_complemento": "Andar 3, Sala 305",
+    "endereco_numero": "120",
+    "endereco_rua": "Avenida Central",
+    "endereco_uf": "DF",
+    "fone_celular": "(61) 99999-6666",
+    "fone_fixo": "(61) 3333-5555",
+    "nome": "Fernando Almeida",
+    "qtd_entregas_realizadas": 420,
+    "rg": "56.789.012-3",
+    "valor_frete": 60.00
+  },
+  {
+    "id": "345682",
+    "habilitado": true,
+    "criado_por": "admin",
+    "data_criacao": "2025-03-18T16:00:00Z",
+    "data_ultima_modificacao": "2025-04-02T12:00:00Z",
+    "ultima_modificacao_por": "admin",
+    "versao": 1,
+    "ativo": true,
+    "cpf": "567.890.123-44",
+    "data_nascimento": "1988-11-12",
+    "endereco_bairro": "Vila Santa Clara",
+    "endereco_cep": "78000-004",
+    "endereco_cidade": "Cuiabá",
+    "endereco_complemento": "Casa 101",
+    "endereco_numero": "75",
+    "endereco_rua": "Rua das Margaridas",
+    "endereco_uf": "MT",
+    "fone_celular": "(65) 99999-5555",
+    "fone_fixo": "(65) 3322-4433",
+    "nome": "Paulo Oliveira",
+    "qtd_entregas_realizadas": 378,
+    "rg": "78.901.234-5",
+    "valor_frete": 50.90
+  },
+  {
+    "id": "345683",
+    "habilitado": false,
+    "criado_por": "admin",
+    "data_criacao": "2025-03-28T17:30:00Z",
+    "data_ultima_modificacao": "2025-04-04T09:45:00Z",
+    "ultima_modificacao_por": "supervisor",
+    "versao": 1,
+    "ativo": false,
+    "cpf": "678.901.234-55",
+    "data_nascimento": "1991-05-16",
+    "endereco_bairro": "Vila Nova",
+    "endereco_cep": "52000-008",
+    "endereco_cidade": "Recife",
+    "endereco_complemento": "Apt 201",
+    "endereco_numero": "150",
+    "endereco_rua": "Rua do Sol",
+    "endereco_uf": "PE",
+    "fone_celular": "(81) 98888-5555",
+    "fone_fixo": "(81) 3377-6677",
+    "nome": "Juliana Lima",
+    "qtd_entregas_realizadas": 210,
+    "rg": "89.012.345-6",
+    "valor_frete": 42.80
+  },
+
 
 {
   "id": "345678",
@@ -241,7 +492,4 @@
   "rg": "45.678.910-0",
   "valor_frete": 62.50
 }
-
-
-
-
+]
